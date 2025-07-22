@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy birthday Babe | Bertha!</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+  <div class="countdown-container">
+    <h1>Birthday Loading ...</h1>
+    <div id="countdown">
+      <div><span id="days">00</span><small>Days</small></div>
+      <div><span id="hours">00</span><small>Hours</small></div>
+      <div><span id="minutes">00</span><small>Minutes</small></div>
+      <div><span id="seconds">00</span><small>Seconds</small></div>
+    </div>
+  </div>
+
+  <!-- Surprise Section -->
+  <div class="birthday-surprise" id="birthdaySurprise">
+    <h2> Happy Birthday my Love, <span>Bertha Michael.</span> </h2>
+
+    <div class="typing-box">
+      <span id="typed-message"></span>
+    </div>
+
+    <div class="photo-card">
+      <img src="IMG-20230915-WA0012.jpg" alt="Bertha Michael" />
+    </div>
+
+    <button onclick="playMusic()" class="music-btn">
+      <i class="bi bi-music-note-beamed"></i> Play Birthday Song
+    </button>
+  </div>
+
+  <audio id="birthdaySong" src="Rayvanny - Happy Birthday (Video)(M4A_128K).m4a"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
